@@ -21,7 +21,8 @@ Hat-tip to user MCO at https://stackoverflow.com/questions/42925482/gimp-batch-e
 
 Open terminal, navigate to the folder containing images & the python script, paste the following command and run it.
 
-/Applications/GIMP-2.10.app/Contents/MacOS/gimp -idf  --batch-interpreter python-fu-eval -b "import sys;sys.path=['.']+sys.path;import batchwrapper;batchwrapper.gimpbatchproc('/Users/username/Downloads/images/rawpics','*.jpg')" -b "pdb.gimp_quit(1)"
+
+`/Applications/GIMP-2.10.app/Contents/MacOS/gimp -idf  --batch-interpreter python-fu-eval -b "import sys;sys.path=['.']+sys.path;import batchwrapper;batchwrapper.gimpbatchproc('/Users/username/Downloads/images/rawpics','*.jpg')" -b "pdb.gimp_quit(1)"`
 
 Very elegant command line solution from user Xenoid at https://stackoverflow.com/questions/44430081/how-to-run-python-scripts-using-gimpfu-from-command-line . Answer also contains another version of the batch script.
 
