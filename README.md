@@ -30,5 +30,5 @@ Open terminal, navigate to the folder containing images & the python script, pas
 
 Very elegant command line solution from user Xenoid at https://stackoverflow.com/questions/44430081/how-to-run-python-scripts-using-gimpfu-from-command-line . Answer also contains another version of the batch script.
 
-If everything works well, a new folder named "output" should be created in the folder containing the images and should be populated with the processed images. File extension might be incorrect but you can change this to the correct extension by bulk rename in MacOS. Files should be in the correct format though.
+If everything worked as intended, a new folder named "output" should be created in the folder containing the images and should be populated with the processed images. File extension might be incorrect but you can change this to the correct extension by bulk rename in MacOS. Files should be in the correct format though.
 
